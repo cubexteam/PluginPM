@@ -1,0 +1,16 @@
+name: AdvancedWorld
+version: 1.0.0
+main: AdvancedWorld\Main
+api: [3.0.0-ALPHA7]
+author: SantianDev
+description: Плагин на создание фигур для 1.1.5
+
+commands:
+  aw:
+    description: "Создание геометрических фигур"
+    permission: aw.command
+
+permissions:
+  aw.command:
+    description: "Доступ к команде /aw"
+    default: op
